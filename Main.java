@@ -9,7 +9,7 @@ class Main {
     System.out.println("What is the address of the stable?");
     String address = scanner.nextLine();
     stable.setAddress(address);    
-    // Enter an infinite loop
+    // Enter infinite loop
     while (true) {
       System.out.println("Do you wish to add a horse to the stable? (y/n)");
       char input = scanner.next().charAt(0);
